@@ -1,0 +1,26 @@
+he modificado:
+
+camera pawn y main camera blueprints (el viewport material de coni)
+
+fade out mas largo
+
+camera pawn llama al fade out despues de 0.20 sec
+
+en Camera Pawn:
+
+TrasportToCamera ahora se llama CanWeTransportToCamera, 
+y he hecho una funcion llamada
+PasarAOtroCamara... la razon por la que he hecho esto es 
+pk así se produce el cambio de camara
+justo cuando el fadeOut esta totalmente negro (0.2
+ segundos)
+
+He añadido el widget del centro de la pantalla (el punto blanco)
+
+Los NPCs ya no tienen Cast Shadow
+
+Inputs:
+
+si haces un swipe con las Samsung Gear, en teoria vas al menu
+El tap no funciona ahora, si se quiere cambiar de camara, 
+solo se hace mirando durante unos segundos (he de implementar el TAP)
